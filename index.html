@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pathways Learning Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    nav a {
+      background: #fff;
+      border-radius: 8px;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a:hover {
+      background: #e6f0fc;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .lesson-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .lesson-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .lesson-card:hover {
+      transform: translateY(-4px);
+    }
+    .lesson-card h3 {
+      margin-top: 0;
+    }
+    .lesson-card a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pathways Learning Hub</h1>
+    <p>Self-paced learning for students in a supportive space</p>
+  </header>
+
+  <nav>
+    <a href="#ela">ELA</a>
+    <a href="#social-studies">Social Studies</a>
+    <a href="#science">Science</a>
+    <a href="#current-events">Current Events</a>
+    <a href="#art">Art</a>
+  </nav>
+
+  <main>
+    <section id="ela">
+      <h2>English Language Arts</h2>
+      <div class="lesson-list">
+        <div class="lesson-card">
+          <h3>Finding Your Voice in Writing</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Exploring Poetry with Emotion</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Character Strengths in Fiction</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Theme and Personal Growth</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Journal Writing for Wellbeing</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="social-studies">
+      <h2>Social Studies</h2>
+      <div class="lesson-list">
+        <div class="lesson-card">
+          <h3>Civil Rights & Social Change</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Understanding Bias in History</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Global Perspectives on Conflict</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Mapping Your Identity</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Building Empathy through History</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="science">
+      <h2>Science</h2>
+      <div class="lesson-list">
+        <div class="lesson-card">
+          <h3>The Brain & Emotional Health</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Ecology & Human Impact</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>How Stress Affects the Body</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Nutrition & Mood</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Scientific Method: Daily Life</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="current-events">
+      <h2>Current Events</h2>
+      <div class="lesson-list">
+        <div class="lesson-card">
+          <h3>Media Literacy 101</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Global Voices: Youth in Action</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Understanding Protest</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Climate Change News</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Social Media & Wellbeing</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="art">
+      <h2>Art</h2>
+      <div class="lesson-list">
+        <div class="lesson-card">
+          <h3>Art as Expression</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Visual Journaling</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Storytelling through Collage</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Colors & Emotions</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+        <div class="lesson-card">
+          <h3>Portraits of Inner Strength</h3>
+          <a href="#">Start Lesson</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
